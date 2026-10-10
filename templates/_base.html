@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        
+    <header>       
         <a href="{% url 'home' %}"><h1>Blog</h1></a>
     </header>
     <main>
+        <a href="{% url 'post-create' %}">Crear nuevo Post</a>
         {% block content %}
         {% endblock content %}
     </main>
