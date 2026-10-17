@@ -127,4 +127,4 @@ MAILERS = {
     },
 }
 
-
+LOGIN_REDIRECT_URL = 'home'
